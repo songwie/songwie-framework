@@ -45,3 +45,25 @@ songwie-security ： 安全模块（集成加密算法，restfull接口加密，
 
 songwie-minitor ：（集成dianping-cat 做业务监控）
 
+
+
+songwie-job 模块：
+<p>
+	<br />
+</p>
+<p>
+	<img src="/attached/image/20150215/20150215114720_395.png" alt="" /> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<img src="/attached/image/20150215/20150215114739_785.png" alt="" /> 
+</p>
+<p>
+	<br />
+</p>
+
+songwie-log 模块：
+从url 到service 到数据库 串联整个流程日志。
+
