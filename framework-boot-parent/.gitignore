@@ -1,0 +1,10 @@
+target/*
+target/test-classes/*
+target/m2e-wtp/*
+.classpath
+.settings/*
+.project
+/target
+
+*.iml
+.idea/*
