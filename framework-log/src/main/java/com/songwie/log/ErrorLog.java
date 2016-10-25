@@ -1,5 +1,7 @@
 package com.songwie.log;
 
+import com.songwie.util.aspect.Request;
+
 public class ErrorLog {
 	private static Logger LOGGER;
 	

@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.songwie.log.Logger;
 import com.songwie.log.LoggerFactory;
-import com.songwie.log.Request;
+import com.songwie.util.aspect.Request;
 
  
 @Aspect

@@ -5,6 +5,8 @@ import java.io.PrintStream;
 import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
 
+import com.songwie.util.aspect.Request;
+
 
 /**
  * The Slf4jLogger implementation of Logger.
