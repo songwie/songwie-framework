@@ -116,3 +116,4 @@ target/
 
 .springBeans
 .factorypath
+/.apt_generated/

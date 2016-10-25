@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<artifactId>songwie-log</artifactId>
+	
+	<packaging>jar</packaging>
+	
+	<parent>
+		<groupId>com.songwie</groupId>
+	    <artifactId>songwie-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath/>
+	</parent>
+	
+	<name>songwie-log</name>
+	<description />
+ 
+	<properties>
+		<p6spy.version>1.3</p6spy.version>
+	</properties>
+	 
+	<dependencies>
+	    <dependency>
+			<groupId>com.songwie</groupId>
+			<artifactId>songwie-util</artifactId>
+	        <version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>p6spy</groupId>
+			<artifactId>p6spy</artifactId>
+			<version>${p6spy.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter</artifactId>
+		    <exclusions>
+		        <exclusion>
+		            <groupId>org.springframework.boot</groupId>
+		            <artifactId>spring-boot-starter-logging</artifactId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-log4j</artifactId>
+		</dependency>
+	</dependencies>
+	
+</project>
