@@ -15,10 +15,21 @@
  
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<disconf-client.version>2.6.32</disconf-client.version>
 	</properties>
 	 
 	<dependencies>	
-		 				
+		 <dependency>
+		    <groupId>com.baidu.disconf</groupId>
+		    <artifactId>disconf-client</artifactId>
+		    <version>${disconf-client.version}</version>
+		    <exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>	
 	</dependencies>
 	 
 </project>
